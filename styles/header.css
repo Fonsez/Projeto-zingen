@@ -1,0 +1,6 @@
+header{
+  & a:first-child{
+    /* preenche o lado direito da minha nav jogando os outros items para esquerda */
+    margin-right: auto;
+  }
+}

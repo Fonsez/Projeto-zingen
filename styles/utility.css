@@ -44,8 +44,18 @@ Essa abordagem é útil para criar layouts fluidos que se ajustam a diferentes t
   display: flex;
 }
 
+.items-center{
+  align-items: center;
+}
+
 .gap-1{
   gap: 1rem;
+}
+
+
+/* foma de escape, pois n posso usar. no meio da classe e no html posso por gap-1.5 normal */
+.gap-1\.5{
+  gap: 1.5rem;
 }
 
 .grid{
