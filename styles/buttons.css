@@ -19,12 +19,13 @@
   font: var(--fw-md) var(--fs-base)/1.5rem var(--ff-sans);
 
   cursor: pointer;
-
+  
   background: var(--btn-bg-color);
   color: var(--btn-color);
 }
 
 .btn:hover{
+  
   --btn-bg-color: var(--Sunshine-Gradient);
   --btn-color: var(--surface-color);
 }
@@ -33,7 +34,7 @@
 .btn-sm{
   padding: .5rem 1rem;
   font-size: var(--fs-sm);
-}
+} 
 
 .btn-md{
   padding: .75rem 1.5rem;
@@ -45,3 +46,37 @@
   padding: 1rem 2rem;
   font-size: 1.125rem;
 }
+
+
+/* esquema para fazer o botão secundário com o hover do texto em degrade */
+.btn[aria-label]{
+    position: relative;
+
+    &::before {
+      content: "";
+      /* posicionamento absoluto em relação ao btn aria label */
+      position: absolute;
+      /* herda do pai */
+      border-radius: inherit;
+      inset: 0.09375rem;
+      background-color: var(--background-color);
+    }
+
+
+  &::after{
+    content: attr(aria-label);
+    background: var(--btn-bg-color);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+
+
+
+
+
