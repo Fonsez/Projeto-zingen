@@ -29,7 +29,7 @@
   --text-color-secondary: #A1A1AA;
 
   /* PRODUTO */
-  --brand-gradient: var(--Sunshine-Gradient, linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%));
+  --Sunshine-Gradient: linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
   --brand-color-primary: #F7B733;
   --brand-color-secondary: #FC4A1A;
 

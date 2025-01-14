@@ -40,6 +40,20 @@ Essa abordagem é útil para criar layouts fluidos que se ajustam a diferentes t
   gap: 1rem;
 }
 
+.flex{
+  display: flex;
+}
+
+.gap-1{
+  gap: 1rem;
+}
+
+.grid{
+  display: grid;
+}
+
+
+
 @media (width >= 80em){
   .container{
     --max-width: 80rem;
@@ -59,3 +73,6 @@ Essa abordagem é útil para criar layouts fluidos que se ajustam a diferentes t
 
 
 /* estamos usando uma estratégia de mobal fisrt, codar para o mobile e ir trocando os tamnhos para o desk através do media */
+
+
+
