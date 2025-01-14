@@ -1,0 +1,61 @@
+  .py-base{
+    padding-block: var(--py-base);
+  }
+
+
+  .py-lg{
+    padding-block: var(--py-lg);
+  }
+
+  .py-xl{
+    padding-block: var(--py-xl);
+  }
+
+  .px-lg{
+    padding-inline: var(--px-lg);
+  }
+
+
+/*no figma o projeto total tem 1280 e 32, 375, 24 no mobal que temos que subtrair q ele tem de respiro  */
+
+
+/* O elemento .container terá uma largura que:
+Nunca excede 375px (definido por --max-width).
+Também não ultrapassa o espaço disponível na viewport menos o valor de --px-log multiplicado por 2.
+Essa abordagem é útil para criar layouts fluidos que se ajustam a diferentes tamanhos de tela, especialmente em dispositivos móveis. */
+.container{
+  --max-width: 375px;
+  margin-inline: auto;
+  width: min(var(--max-width), 100% - var(--px-lg) * 2 );
+  border: 1px solid rgb(153, 0, 255);
+}
+
+.desktop-only{
+  display: none;
+}
+
+/* colunas constante, estamos prevendo em algumas partes no mobal vai ficar um abaixo do outro e non desktop um do lado do outro */
+.even-columns{
+  display: grid;
+  gap: 1rem;
+}
+
+@media (width >= 80em){
+  .container{
+    --max-width: 80rem;
+  }
+
+  .desktop-only{
+    /* vai pegar oq era padrão no caso 80rem */
+    display: initial;
+  }
+
+  .even-columns{
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+}
+
+
+
+/* estamos usando uma estratégia de mobal fisrt, codar para o mobile e ir trocando os tamnhos para o desk através do media */
