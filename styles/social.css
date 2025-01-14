@@ -1,0 +1,58 @@
+  a.social{
+    --bg-img: "";
+    background-image: var(--bg-img);
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+
+    /* se n colocasse esses 2 eles pegariam a validação q fiz no a:hover lá tras para fazer o recorte e transformar o texto em degradê, então tenho q trazer ele aquj e deixar na forma inicial */
+    -webkit-background-clip: initial;
+    background-clip: initial;
+
+
+
+
+    transition: 0.5s ease;
+
+    &[aria-label="tiktok"]{
+      --bg-img: url(../assets/icons/tiktok.svg);
+  
+      &:hover{
+        --bg-img: url(../assets/icons/tiktok-hover.svg);
+      }
+    }
+
+
+    &[aria-label="instagram"]{
+      --bg-img: url(../assets/icons/instagram.svg);
+  
+      &:hover{
+        --bg-img: url(../assets/icons/instagram-hover.svg);
+      }
+    }
+
+
+
+    &[aria-label="discord"]{
+      --bg-img: url(../assets/icons/discord.svg);
+  
+      &:hover{
+        --bg-img: url(../assets/icons/discord-hover.svg);
+      }
+    }
+
+
+
+    &[aria-label="twitter"]{
+      --bg-img: url(../assets/icons/twitter.svg);
+  
+      &:hover{
+        --bg-img: url(../assets/icons/twiter-hover.svg);
+      }
+    }
+    
+  }
+  
+  
+  
+  

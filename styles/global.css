@@ -100,6 +100,14 @@ a{
   color: inherit;
 }
 
+/* transformar o texto em degradê */
+a:hover{
+  background: var(--Sunshine-Gradient); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 /* maneira de acessibilidade para tirar o style do ul */
 ul[role="list"] {
   list-style: none;
