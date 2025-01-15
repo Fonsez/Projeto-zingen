@@ -113,6 +113,12 @@ ul[role="list"] {
   list-style: none;
 }
 
+/* reset de img */
+img{
+  max-width: 100%;
+  display: inline-block;
+}
+
 /* variáveis que mudam para o desktop 1280/16 = 80em*/
 @media (width >= 80em){
   :root{
