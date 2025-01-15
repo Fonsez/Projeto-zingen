@@ -27,6 +27,8 @@
   </header>
   <!-- fim navegação -->
 
+
+  <!-- seção hero -->
   <section id="hero">
     <div class="container py-xl">
       <img src="assets/icons/musicbars.svg" alt="Icone de ondas de música">
@@ -40,6 +42,8 @@
       </div>
     </div>
   </section>
+  <!-- fim hero -->
+
 
   <!-- fundo para mobile -->
   <section id="smartphones-img">
@@ -48,6 +52,7 @@
     </div>
   </section>
   <!-- fim imagem para mobal -->
+
 
   <!-- inicio seção about -->
   <section id="about">
@@ -70,13 +75,15 @@
 
     </div>
   </section>
-  <!-- fim seção about -->
+  <!-- fim  about -->
 
 
   <!-- seção de features -->
   <section id="features">
+    <!-- inicio grid -->
     <div class="cards container py-xl grid gap-1.5">
 
+      <!-- child 1 -->
       <div class="card py-lg px-lg">
         <img src="assets/icons/MagicWand.svg" alt="">
         <h3>A maior biblioteca de músicas de Karaokê!</h3>
@@ -85,7 +92,7 @@
         </p>
       </div>
 
-
+      <!-- child 2 -->
       <div class="card py-lg px-lg">
         <div>
           <img src="assets/icons/GameController.svg" alt="">
@@ -97,7 +104,7 @@
         <img class="desktop-only" src="assets/img/Tela 2.png" alt="">
       </div>
 
-
+      <!-- child 3 -->
       <div class="card py-lg px-lg">
         <img src="assets/icons/MicrophoneStage.svg" alt="">
         <h3>Grave suas performances</h3>
@@ -106,7 +113,7 @@
         </p>
       </div> 
 
-      
+      <!-- child 4 -->
       <div class="card py-lg px-lg">
         <div>
           <img src="assets/icons/UsersThree.svg" alt="">
@@ -118,7 +125,7 @@
         <img class="desktop-only" src="assets/img/Tela 1.png" alt="">
       </div> 
 
-
+      <!-- child 5 -->
       <div class="card py-lg px-lg">
         <div>
           <img src="assets/icons/MusicNotes.svg" alt="">
@@ -132,6 +139,65 @@
 
     </div>
   </section>
+  <!-- fim features -->
 
+  <section id="pricing">
+    <div class="container py-xl">
+      <header>
+        <strong>Planos e preços</strong>
+        <h2>Assine e tenha acesso ilimitado a todas as funcionalidades</h2>
+      </header>
+
+      <div class="cards even-columns items-center">
+        <div class="card py-lg px-lg">
+          <h3>Básico</h3>
+          <p>Baixe o app e comece a cantar agora mesmo!</p>
+          <!-- tag criada -->
+          <zin-pricing>Grátis</zin-pricing>
+          <a href="#download" class="btn btn-md" aria-label="Baixar agora"></a>
+          <div class="separator"></div>
+          <!-- grid pq é um abaixo do outro e o role=list é para ajudar na acessibilidade -->
+          <ul role="list" class="grid gap-1">
+            <li>Com anúncios</li>
+            <li>Até 5 músicas por dia</li>
+            <li>Cante apenas as músicas disponíveis no plano gratuito</li>
+          </ul>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="card py-lg px-lg">
+          <h3>Família</h3>
+          <p>Para aquelas famílias que adoram se reunir pra cantar</p>
+          <!-- tag criada -->
+          <zin-pricing class="zin-pricing">R$ 21,90 <small>/mês por pessoa</small> </zin-pricing>
+          <a href="#" class="btn btn-md" aria-label="Baixar agora"></a>
+          <div class="separator"></div>
+          <!-- grid pq é um abaixo do outro e o role=list é para ajudar na acessibilidade -->
+          <ul role="list" class="grid gap-1">
+            <li>Sem interrupção de anúncios</li>
+            <li>Cante quantas músicas quiser</li>
+            <li>Cante todas as músicas da biblioteca</li>
+          </ul>
+          <small>Mínimo de 4 pessoas no plano família.</small>
+        </div>
+
+
+
+
+
+
+
+        
+      </div>
+    </div>
+  </section>
 </body>
 </html>
