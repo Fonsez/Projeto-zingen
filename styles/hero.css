@@ -1,0 +1,51 @@
+#hero{
+  text-align: center;
+
+  /* esse seletro serve para pegar um elemento que dentro do src tenha essa sequencia de caracteres e altere ele */
+  & img[src*="musicbars"]{
+    width: 12.875rem;
+  }
+
+  & h1{
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+  }
+
+  & p{
+    font: var(--fw-md) var(--fs-lg)/1.4 var(--ff-sans);
+    color: var(--text-color-secondary);
+    margin-bottom: .5rem;
+  }
+
+  & .buttons{
+    margin-top: 2rem;
+    justify-content: center;
+  }
+}
+
+
+@media (width >= 80em){
+  #hero{
+    background: url(../assets/img/bg-hero-desktop.svg) no-repeat bottom center/contain;
+    /* teria q ir no teste mas usei a dev mode do figma e deu 239px de padding bottom */
+    padding-bottom: 15rem;
+
+    & img[src*="musicbars"]{
+      width: 25.75rem;
+    }
+
+    & h1{
+      margin-top: 1.5rem;
+    }
+
+    & p{
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+
+    & .buttons{
+      margin-top: 3rem;
+    }
+  }
+}
