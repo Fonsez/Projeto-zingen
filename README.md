@@ -1,4 +1,5 @@
-# 🎤 Landing Page de Aplicativo - Zingen
+# Landing Page de Aplicativo - Zingen
+<br/>
 
 <p align="center">
   <img alt="Preview do projeto desenvolvido" src="./assets/img/Thumbnail-lp-zingen.png" width="80%">
@@ -14,16 +15,16 @@
 
 ---
 
-## ✨ Sobre o Projeto
+## Sobre o Projeto
 
-Bem-vindo à Landing Page do **Zingen**, um aplicativo de karaokê que transforma qualquer momento em diversão! 🎶
+Landing Page **Zingen**, um aplicativo de karaokê!
 
-- **Objetivo:** Criar uma página de marketing **totalmente responsiva** e moderna.
-- **Aprendizados:** Técnicas de **CSS avançado**, foco em **responsividade** e design.
+- **Objetivo:** Colocar em prática **métodos diferentes de responsividade** ensinados pelo professor Mayk Brito na Formação FS pela Rocketseat.
+- **Em prática:** Técnicas de **CSS avançado**, foco em **responsividade** e UI design com Figma.
 
 <br/>
 
-## 🚀 Tecnologias
+## Tecnologias
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -32,32 +33,32 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ---
 
-## 🎯 Objetivos do Projeto
+## Objetivos do Projeto
 
 🔹 Construir uma página com **design clean** e **layout responsivo**.  
-🔹 Utilizar **CSS moderno**, com transições e efeitos visuais dinâmicos.  
+🔹 Utilizar **CSS moderno**.  
 🔹 Implementar práticas de **acessibilidade** e otimização para dispositivos móveis.
 
 ---
 
-## 📸 Preview do Projeto
+## Preview do Projeto
 
 <div align="center">
-  <img alt="Tela inicial do projeto Zingen" src="./assets/img/Thumbnail-lp-zingen.png" width="80%">
+  <img alt="Tela inicial do projeto Zingen" src="./assets/img/zingen.gif" width="80%">
 </div>
 
 ---
 
 ## 🔗 Links Úteis
 
-- [Acesse o site ao vivo](#)  
-- [Tutorial de Desenvolvimento](#)  
-- [Outros projetos da Rocketseat](https://rocketseat.com.br)
+- [Navegue pelo Site](https://fonsez.github.io/Projeto-zingen/)  
+- [LinkedIn](https://www.linkedin.com/in/fonses/)  
+- [Portifa](https://fonsez.github.io/port/)
 
 ---
 
-## 🛠 Como Executar o Projeto
+## Como Executar o Projeto
 
 1. **Clone o repositório:**  
    ```bash
-   git clone https://github.com/seu-usuario/repo-zingen.git
+   git clone https://github.com/Fonsez/Projeto-zingen.git
