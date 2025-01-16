@@ -1,34 +1,63 @@
-
-
-<p align="center">
-Projeto de uma landing page de produto desenvolvido durante as aulas sobre Responsividade na Rocketseat.
-</p>
+# 🎤 Landing Page de Aplicativo - Zingen
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <img alt="Preview do projeto desenvolvido" src="./assets/img/Thumbnail-lp-zingen.png" width="80%">
 </p>
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=0F172A&labelColor=1D4ED8">
-</p>
+<div align="center">
 
-<br>
+[![Tecnologias](https://img.shields.io/static/v1?label=Tecnologias&message=HTML%20|%20CSS&color=blue&labelColor=0F172A&style=flat-square)](#-tecnologias)
+[![Projeto](https://img.shields.io/static/v1?label=Projeto&message=Landing%20Page&color=green&labelColor=0F172A&style=flat-square)](#-projeto)
+[![Licença](https://img.shields.io/static/v1?label=Licença&message=MIT&color=orange&labelColor=0F172A&style=flat-square)](#memo-licença)
 
-<p align="center">
-  <img alt="Preview do projeto desenvolvido." src="./assets/img/Thumbnail-lp-zingen.png" width="100%">
-</p>
+</div>
+
+---
+
+## ✨ Sobre o Projeto
+
+Bem-vindo à Landing Page do **Zingen**, um aplicativo de karaokê que transforma qualquer momento em diversão! 🎶
+
+- **Objetivo:** Criar uma página de marketing **totalmente responsiva** e moderna.
+- **Aprendizados:** Técnicas de **CSS avançado**, foco em **responsividade** e design.
+
+<br/>
 
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML
-- CSS
+- **HTML5**
+- **CSS3**
 
-## Projeto
+---
 
-Nesse projeto você vai desenvolver a Landing Page de marketing completa e responsiva de um aplicativo de Karaokê chamado Zingen.
+## 🎯 Objetivos do Projeto
 
-Vamos aprender várias técnicas de CSS e como deixar um projeto responsivo.
+🔹 Construir uma página com **design clean** e **layout responsivo**.  
+🔹 Utilizar **CSS moderno**, com transições e efeitos visuais dinâmicos.  
+🔹 Implementar práticas de **acessibilidade** e otimização para dispositivos móveis.
+
+---
+
+## 📸 Preview do Projeto
+
+<div align="center">
+  <img alt="Tela inicial do projeto Zingen" src="./assets/img/Thumbnail-lp-zingen.png" width="80%">
+</div>
+
+---
+
+## 🔗 Links Úteis
+
+- [Acesse o site ao vivo](#)  
+- [Tutorial de Desenvolvimento](#)  
+- [Outros projetos da Rocketseat](https://rocketseat.com.br)
+
+---
+
+## 🛠 Como Executar o Projeto
+
+1. **Clone o repositório:**  
+   ```bash
+   git clone https://github.com/seu-usuario/repo-zingen.git
