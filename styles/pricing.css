@@ -43,6 +43,62 @@
     background: linear-gradient(90deg, #18181B 0%, #A1A1AA 50%, #18181B 100%);
   }
 
+  & li{
+    color: var(--text-color-secondary);
+    background: url(../assets/icons/Check.svg) no-repeat;
+    padding-left: 2rem;
+  }
+
+  /* quero o small q tenha o ul antes */
+  & ul + small{
+    /* small tem display inline */
+    display: block;
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+    color: var(--text-color-secondary);
+  }
+
+
+  & .premium{
+    position: relative;
+
+
+    & .card{
+      padding-top: 4.25rem;
+      & span{
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        padding: .75rem 2rem;
+        background: var(--Sunshine-Gradient);
+
+
+        border-top-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        font: 600 var(--fs-sm) var(--ff-sans);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--background-color);
+      
+      }
+    }
+
+    /* espaço por dentro sendo assim podendo ver a "borda" */
+    padding: 2px;
+    /* criar um elemento no premium */
+    &::before{
+      content: "";
+      background: var(--Sunshine-Gradient);
+      /* em relação ao meu card premium */
+      position: absolute;
+      /* preenche todo espaço disponivel */
+      inset: 0;
+      border-radius: 1.5rem;
+      /* coloca para baixo do card original */
+      z-index: -1;
+    }
+  }
 
   @media (width >= 80em){
       --fs-price: 2.5rem;
@@ -51,6 +107,20 @@
       max-width: 50rem;
       /* alinhar ao centro */
       margin-inline: auto;
+    }
+
+    & .premium .card{
+      padding-bottom: 6rem;
+
+    }
+
+    .btn-md{
+      padding: .75rem 1.5rem;
+      font-size: var(--fs-base);
+    }
+
+    & .card:nth-child(3) .separator{
+      margin-block: 1.5rem;
     }
   }
 
