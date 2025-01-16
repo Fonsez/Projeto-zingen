@@ -69,10 +69,12 @@ html{
   font-size: var(--fs-base);
   line-height: 160%;
   color: var(--text-color-primary);
+  overflow-x: hidden;
 }
 
 body{
   background-color: var(--background-color);
+  overflow-x: hidden;
 }
 
 h1,h2,h3{
