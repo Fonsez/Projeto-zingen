@@ -70,11 +70,14 @@ html{
   line-height: 160%;
   color: var(--text-color-primary);
   overflow-x: hidden;
+
+  scroll-behavior: smooth;
 }
 
 body{
   background-color: var(--background-color);
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 h1,h2,h3{
@@ -142,3 +145,21 @@ img{
 
 
 
+/* Estilo para a barra de rolagem */
+::-webkit-scrollbar {
+  width: 8px; /* Largura da barra */
+  background-color: #1a1a1a; /* Fundo da barra */
+}
+
+/* Parte que desliza (scroll thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: #4d4d4d; /* Cor do thumb */
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Parte superior (botão para rolar para cima) */
+::-webkit-scrollbar-button:single-button {
+  background-color: #1a1a1a; /* Fundo do botão */
+  height: 10px; /* Altura do botão */
+  display: block; /* Certifica que é visível */
+}
